@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(0, 0, 42);
+}
+
+
+main {
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    margin: 0 2rem;
+    width: 95%;
+    height: auto;
+}
+hr{
+    border-radius: 10px;
+}
+.firstbox,
+.secoundbox,
+.thirdbox,
+.fourthbox,
+.fivebox,
+.sixbox,
+.sevenbox,
+.eightbox {
+    margin: 3%;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    width: 27%;
+    height: auto;
+    display: inline-block;
+    box-shadow: 5px 5px rgb(252, 252, 252);
+    transition-duration: 8s;
+    transition-delay: 2s;
+    background-color: rgb(0, 135, 213);
+}
+
+.firstbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+    background-color: yellow;
+}
+
+.firstbox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.firstbox:hover p {
+    display: block;
+    transition-property: margin-right;
+    visibility: visible;
+    transition-delay: 20s;
+}
+
+.secoundbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.secoundbox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.secoundbox:hover p {
+    display: block;
+    transition-delay: 250ms;
+    transition-property: margin-right
+}
+
+.thirdbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.thirdbox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.thirdbox:hover p {
+    display: block;
+    transition-delay: 250ms;
+    transition-property: margin-right
+}
+
+.fourthbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.fourthbox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.fourthbox:hover p {
+    display: block;
+    transition-delay: 250ms;
+    transition-property: margin-right
+}
+
+.fivebox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.fivebox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.fivebox:hover p {
+    display: block;
+    transition-delay: 250ms;
+    transition-property: margin-right
+}
+
+.sixbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.sixbox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.sixbox:hover p {
+    display: block;
+    transition-delay: 250ms;
+    transition-property: margin-right
+}
+
+.sevenbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.sevenbox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.sevenbox:hover p {
+    display: block;
+    transition-delay: 250ms;
+    transition-property: margin-right
+}
+
+.eightbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.eightbox p {
+    display: none;
+    color: rgb(255, 255, 255);
+}
+
+.eightbox:hover p {
+    display: block;
+    transition-delay: 250ms;
+    transition-property: margin-right
+}
+
+
+@media screen and (max-width: 1000px) {
+    main {
+        display: inline-block;
+        border-radius: 8px;
+        width: 95%;
+        height: auto;
+    }
+    .firstbox,
+    .secoundbox,
+    .thirdbox,
+    .fourthbox,
+    .fivebox,
+    .sixbox,
+    .sevenbox,
+    .eightbox {
+        margin: 4%;
+        border-radius: 10px;
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 4px 4px rgb(255, 255, 255);
+        transition-duration: 8s;
+        transition-delay: 2s;
+
+    }
+    
+.firstbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.secoundbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.thirdbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.fourthbox img {
+    width: 75%;
+    height: 30vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.fivebox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.sixbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+
+
+.sevenbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+
+.eightbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+ p {
+    display: block;
+    border-radius: 10px;
+    background-color: rgb(0, 135, 213);
+}
+}
+
+
+@media screen and (max-width: 600px) {
+
+    main {
+        display: inline-block;
+        border-radius: 8px;
+        width: 80%;
+        height: auto;
+    }
+    .firstbox,
+    .secoundbox,
+    .thirdbox,
+    .fourthbox,
+    .fivebox,
+    .sixbox,
+    .sevenbox,
+    .eightbox {
+        margin: 7%;
+        border-radius: 7px;
+        width: 85%;
+        height: auto;
+        display: inline-block;
+        box-shadow: 4px 4px rgb(69, 69, 69);
+        transition-duration: 8s;
+        transition-delay: 2s;
+
+    }
+    
+.firstbox img {
+    width: 70%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.secoundbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.thirdbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.fourthbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.fivebox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.sixbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.sevenbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+
+.eightbox img {
+    width: 75%;
+    height: 20vh;
+    margin: 12%;
+    border-radius: 8px;
+    transition-duration: 5s;
+}
+p{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(0, 135, 213);
+}
+
+}
